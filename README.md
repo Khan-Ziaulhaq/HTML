@@ -1,3 +1,15 @@
+## 📑 Table of Contents
+
+1. [HTML Fundamentals](#html-fundamentals)
+2. [Text Content and Styling](#text-content-and-styling)
+3. [Colors, Links, and Images](#colors-links-and-images)
+4. [Tables and Lists](#tables-and-lists)
+5. [Layout and Structure](#layout-and-structure)
+6. [Semantic Elements](#semantic-elements)
+7. [Forms](#forms)
+8. [Media](#media)
+9. [Additional Topics](#additional-topics)
+
 
 # HTML Learning Roadmap 🚀
 
