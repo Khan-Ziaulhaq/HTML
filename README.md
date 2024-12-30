@@ -406,5 +406,3 @@ This roadmap outlines the key topics you'll explore on your HTML journey:
 
 Feel free to explore each topic at your own pace and experiment with the code examples. Happy coding! 🚀
 ```
-
-I hope this helps! If you need any further adjustments, let me know. Happy coding! 🚀
