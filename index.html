@@ -1,0 +1,2146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="main.js" defer></script>
+
+
+</head>
+
+<body>
+
+	<nav id="sidebar">
+		<span class="logo">HTML Roadmap</span>
+		<ul>
+			<ul>
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>HTML Basics</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#html-learning-roadmap">Fundamentals to HTML</a></li>
+							<li><a href="#introduction-to-html">Introduction to HTML</a></li>
+							<li><a href="#html-editors">HTML Editors</a></li>
+							<li><a href="#basic-structure">Basic Structure</a></li>
+							<li><a href="#elements-and-attributes">Elements and Attributes</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>Text Content and Formatting</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#text-content-and-styling">Introduction</a></li>
+							<li><a href="#headings">Headings</a></li>
+							<li><a href="#paragraphs">Paragraphs</a></li>
+							<li><a href="#styles">Styles</a></li>
+							<li><a href="#formatting">Formatting</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>Colors, Links, and Multimedia</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#colors-links-images">Introduction</a></li>
+							<li><a href="#colors">Colors</a></li>
+							<li><a href="#links">Links</a></li>
+							<li><a href="#images">Images</a></li>
+							<li><a href="#favicon">Favicon</a></li>
+							<li><a href="#page-title">Page Title</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>Tables and Lists</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#tables-and-lists">Introduction</a></li>
+							<li><a href="#tables">Tables</a></li>
+							<li><a href="#lists">Lists (Ordered and Unordered)</a></li>
+							<li><a href="#datalist">Datalist</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>HTML Layout and Structure</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#structure">Structure</a></li>
+							<li><a href="#block-and-inline-elements">Block & Inline Elements</a></li>
+							<li><a href="#div-tag">Div Tag</a></li>
+							<li><a href="#classes-and-ids">Classes and IDs</a></li>
+							<li><a href="#file-paths">File Paths</a></li>
+							<li><a href="#iframes">Iframes</a></li>
+							<li><a href="#head-section">Head Section</a></li>
+							<li><a href="#html-layout-elements">Layout Techniques</a></li>
+
+
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>Semantic HTML</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#introduction-to-semantic-elements">Introduction to Semantic Tags</a></li>
+							<li><a href="#importance-of-semantics">Importance of Semantics</a></li>
+							<li><a href="#what-are-semantic-elements">What are Semantic Elements</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>HTML Forms and Inputs</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#introduction-to-forms">Overview</a></li>
+							<li><a href="#form-attributes">Form Attributes</a></li>
+							<li><a href="#form-elements">Form Elements</a></li>
+							<li><a href="#input-types">Input Types</a></li>
+							<li><a href="#input-attributes">Input Attributes</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>HTML Media</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#introduction-to-media">Introduction</a></li>
+							<li><a href="#video-element">Video</a></li>
+							<li><a href="#audio-element">Audio</a></li>
+						</div>
+					</ul>
+				</li>
+
+				<li>
+					<button onclick="toggleSubMenu(this)" class="dropdown-btn">
+						<span>Advanced HTML Topics</span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+							fill="#e8eaed">
+							<path
+								d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+						</svg>
+					</button>
+					<ul class="sub-menu">
+						<div>
+							<li><a href="#html-metadata">HTML Metadata (Meta Tags)</a></li>
+							<li><a href="#html-accessibility">HTML Accessibility</a></li>
+							<li><a href="#html-data-attributes">HTML Data Attributes</a></li>
+							<li><a href="#html-global-attributes">HTML Global Attributes</a></li>
+							<li><a href="#html-navigation">HTML Navigation (nav)</a></li>
+							<li><a href="#html-templates">HTML Templates</a></li>
+							<li><a href="#html-picture-element">HTML Picture Element</a></li>
+							<li><a href="#html-svg-and-canvas">HTML SVG and Canvas (Graphics)</a></li>
+							<li><a href="#html-deprecated-tags">HTML Deprecated Tags</a></li>
+						</div>
+					</ul>
+				</li>
+			</ul>
+		</ul>
+	</nav>
+
+	<div class="container">
+
+		<div class="content">
+			<h1 id="html-learning-roadmap">HTML Learning Roadmap</h1>
+
+			<h2 id="html-fundamentals">1. <em>HTML Fundamentals (Building Blocks 🧱)</em></h2>
+			<p>HTML (HyperText Markup Language) is the foundational language used to create web pages. It defines the
+				structure and layout of a website by using various "elements" and "tags" to organize content.
+				Understanding the fundamentals of HTML is essential to becoming proficient in web development.</p>
+
+			<hr>
+
+			<h3 id="introduction-to-html">1.1 Introduction to HTML:</h3>
+			<p><strong>Definition:</strong><br>
+				HTML is the standard language for creating and designing webpages. It provides the structure for content
+				such as text, images, links, and multimedia. HTML documents are read by web browsers, which interpret
+				the code to display the content.</p>
+			<p><strong>Role in Web Development:</strong><br>
+				HTML acts as the skeleton of a webpage. It organizes content into readable sections for browsers,
+				enabling users to interact with the webpage. HTML works with other technologies like CSS (Cascading
+				Style Sheets) for styling and JavaScript for interactivity.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;My First Webpage&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;Welcome to My Website!&lt;/h1&gt;
+	&lt;p&gt;This is a simple HTML page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				When this code is opened in a browser, it will display:</p>
+			<div class="output-box">
+				<h1>Welcome to My Website!</h1>
+				<p>This is a simple HTML page.</p>
+			</div>
+
+			<hr>
+
+			<h3 id="html-editors">1.2 HTML Editors:</h3>
+			<p><strong>Definition:</strong><br>
+				HTML editors are software tools designed to help developers write and edit HTML code. They often come
+				with features like syntax highlighting, auto-completion, and error checking, making the coding process
+				easier.</p>
+			<p><strong>Types of HTML Editors:</strong></p>
+			<ul>
+				<li><strong>Text Editors:</strong> Simple text editors like Notepad (Windows) or TextEdit (Mac) can be
+					used to write HTML, though they lack advanced features.</li>
+				<li><strong>Code Editors:</strong> These include Visual Studio Code (VSCode), Sublime Text, Atom, and
+					Brackets. They provide features like syntax highlighting, error detection, and extensions.</li>
+				<li><strong>Integrated Development Environments (IDEs):</strong> Full-featured development environments
+					like WebStorm and Eclipse that support HTML, CSS, and JavaScript.</li>
+			</ul>
+			<p><strong>Example of Code Editor:</strong><br>
+				A developer may use <em>Visual Studio Code</em> (VSCode) to write HTML with features like live preview,
+				code snippets, and auto-completion for better productivity.</p>
+
+			<hr>
+
+			<h3 id="basic-structure">1.3 Basic Structure:</h3>
+			<p><strong>Definition:</strong><br>
+				The basic structure of an HTML document consists of the document declaration, <code>&lt;html&gt;</code>
+				element, <code>&lt;head&gt;</code> section (metadata), and the <code>&lt;body&gt;</code> section (actual
+				content visible on the page).</p>
+			<p><strong>Structure Breakdown:</strong></p>
+			<ul>
+				<li><code>&lt;!DOCTYPE html&gt;</code>: Declares the document type, which is HTML5 in this case.</li>
+				<li><code>&lt;html&gt;</code>: The root element that contains all other HTML elements.</li>
+				<li><code>&lt;head&gt;</code>: Contains meta-information about the document, such as title, character
+					encoding, and links to stylesheets or scripts.</li>
+				<li><code>&lt;body&gt;</code>: Contains the content of the webpage, such as text, images, and links.
+				</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Sample Webpage&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1&gt;HTML Basic Structure&lt;/h1&gt;
+	&lt;p&gt;This is the body of the webpage.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				The webpage will display:</p>
+			<div class="output-box">
+				<h1>HTML Basic Structure</h1>
+				<p>This is the body of the webpage.</p>
+			</div>
+
+			<hr>
+
+			<h3 id="elements-and-attributes">1.4 Elements and Attributes:</h3>
+			<p><strong>Definition:</strong></p>
+			<p><strong>Elements:</strong> HTML elements are the building blocks of an HTML page. They define different
+				types of content, such as headings, paragraphs, images, and links. Each element is typically enclosed by
+				opening and closing tags.</p>
+			<p>Example: <code>&lt;h1&gt;Welcome&lt;/h1&gt;</code>, <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+			</p>
+			<p><strong>Attributes:</strong> Attributes provide additional information about HTML elements. They appear
+				inside the opening tag and are written as a key-value pair (e.g., <code>src="image.jpg"</code> for an
+				image). Attributes are used to customize the behavior or appearance of an element.</p>
+			<p><strong>Common Attributes:</strong></p>
+			<ul>
+				<li><code>id</code>: Specifies a unique identifier for an element.</li>
+				<li><code>class</code>: Specifies one or more class names for an element.</li>
+				<li><code>href</code>: Specifies the destination URL for a hyperlink.</li>
+				<li><code>src</code>: Specifies the source of an image.</li>
+				<li><code>alt</code>: Provides an alternative text for an image.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;title&gt;HTML Elements and Attributes&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;h1 id="main-header"&gt;HTML Example&lt;/h1&gt;
+	&lt;p class="intro"&gt;This is a paragraph with a class attribute.&lt;/p&gt;
+	&lt;a href="https://www.example.com"&gt;Click here&lt;/a&gt; to visit Example.com.
+	&lt;img src="image.jpg" alt="A sample image"&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Explanation of the elements:</strong></p>
+			<ul>
+				<li><code>&lt;h1 id="main-header"&gt;</code>: This is a heading element with an id attribute set to
+					"main-header".</li>
+				<li><code>&lt;p class="intro"&gt;</code>: This is a paragraph with a class attribute set to "intro".
+				</li>
+				<li><code>&lt;a href="https://www.example.com"&gt;</code>: This is a hyperlink with the href attribute
+					pointing to "https://www.example.com".</li>
+				<li><code>&lt;img src="image.jpg" alt="A sample image"&gt;</code>: This is an image element with src
+					pointing to "image.jpg" and alt providing a description of the image.</li>
+			</ul>
+			<p><strong>Output:</strong><br>
+				A webpage with a heading "HTML Example."</p>
+			<div class="output-box">
+				<h1>HTML Example</h1>
+				<p>This is a paragraph with a class attribute.</p>
+				<a href="https://www.example.com">Click here</a> to visit Example.com.<br>
+				<img src="image.jpg" alt="A sample image">
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="content">
+
+			<h2 id="text-content-and-styling">2. <em>Text Content and Styling (✍️ Writing with Flair)</em></h2>
+			<p>Text is the core of most web pages. In this module, we’ll explore the various ways to structure and style
+				text content, creating web pages that are both readable and visually appealing.</p>
+
+			<hr>
+
+			<h3 id="headings">2.1 Headings:</h3>
+			<p><strong>Definition:</strong><br>
+				Headings are used to define the structure of a webpage. They provide a clear hierarchy for the content,
+				making it easier to navigate and read.</p>
+			<p><strong>Heading Levels:</strong><br>
+				HTML provides six levels of headings, from <code>&lt;h1&gt;</code> (most important) to
+				<code>&lt;h6&gt;</code> (least important).
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Section Title&lt;/h2&gt;
+&lt;h3&gt;Subsection Title&lt;/h3&gt;
+&lt;h4&gt;Subsection Title&lt;/h4&gt;
+&lt;h5&gt;Subsection Title&lt;/h5&gt;
+&lt;h6&gt;Subsection Title&lt;/h6&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				A webpage with headings organized by size and importance:</p>
+			<div class="output-box">
+				<h1>Main Title</h1>
+				<h2>Section Title</h2>
+				<h3>Subsection Title</h3>
+				<h4>Subsection Title</h4>
+				<h5>Subsection Title</h5>
+				<h6>Subsection Title</h6>
+			</div>
+
+			<hr>
+
+			<h3 id="paragraphs">2.2 Paragraphs:</h3>
+			<p><strong>Definition:</strong><br>
+				Paragraphs are used to group related sentences or text content into distinct blocks for readability. The
+				<code>&lt;p&gt;</code> element is used to create paragraphs.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;p&gt;This is the first paragraph.&lt;/p&gt;
+&lt;p&gt;This is the second paragraph with more text.&lt;/p&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				Two paragraphs displayed on a webpage:</p>
+			<div class="output-box">
+				<p>This is the first paragraph.</p>
+				<p>This is the second paragraph with more text.</p>
+			</div>
+
+			<hr>
+
+			<h3 id="styles">2.3 Styles:</h3>
+			<p><strong>Definition:</strong><br>
+				Styling text enhances its appearance on a webpage. While CSS (covered in a later module) is the primary
+				styling tool, basic styles can be applied using HTML attributes and tags.</p>
+			<p><strong>Basic Styling Options:</strong></p>
+			<ul>
+				<li><code>&lt;b&gt;</code> and <code>&lt;strong&gt;</code>: Bold text.</li>
+				<li><code>&lt;i&gt;</code> and <code>&lt;em&gt;</code>: Italicize text.</li>
+				<li><code>&lt;u&gt;</code>: Underline text.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;p&gt;This is &lt;b&gt;bold&lt;/b&gt;, &lt;i&gt;italicized&lt;/i&gt;, and &lt;u&gt;underlined&lt;/u&gt; text.&lt;/p&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				A paragraph with styled text:</p>
+			<div class="output-box">
+				<p>This is <b>bold</b>, <i>italicized</i>, and <u>underlined</u> text.</p>
+			</div>
+
+			<hr>
+
+			<h3 id="formatting">2.4 Formatting:</h3>
+			<p><strong>Definition:</strong><br>
+				Formatting refers to enhancing text readability and presentation by adding emphasis, quotes, and
+				comments. It helps organize content and improve code clarity.</p>
+			<p><strong>Common Formatting Options:</strong></p>
+			<ul>
+				<li><code>&lt;blockquote&gt;</code>: Used for long quotations.</li>
+				<li><code>&lt;abbr&gt;</code>: Defines abbreviations.</li>
+				<li><code>&lt;mark&gt;</code>: Highlights text.</li>
+				<li>HTML comments: Use <code>&lt;!-- comment --&gt;</code> to add notes that are not displayed on the
+					webpage.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;blockquote&gt;
+This is a long quote from a famous author.
+&lt;/blockquote&gt;
+
+&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; is a foundational 
+web technology.
+
+&lt;mark&gt;Important text&lt;/mark&gt; is highlighted.
+
+&lt;!-- This is a comment and will not appear in the browser --&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+				A webpage with formatted content:</p>
+			<div class="output-box">
+				<blockquote>This is a long quote from a famous author.</blockquote>
+				<p><abbr title="HyperText Markup Language">HTML</abbr> is a foundational web technology.</p>
+				<p><mark>Important text</mark> is highlighted.</p>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="content">
+
+			<h2 id="colors-links-images">3. <em>Colors, Links, and Images (🎨 Visual Enhancements)</em></h2>
+			<p>Enhancing the visual and navigational elements of a webpage is crucial in creating an engaging user
+				experience. In this module, we explore how to add colors, create hyperlinks, embed images, include
+				favicons, and define descriptive page titles.</p>
+
+			<hr>
+
+			<h3 id="colors">3.1 Colors:</h3>
+			<p><strong>Definition:</strong><br>
+				Colors in HTML help highlight text, set background themes, and improve the visual appeal of a webpage.
+				They can be specified using predefined color names, hexadecimal (HEX) codes, or RGB values.</p>
+			<p><strong>Methods of Adding Colors:</strong></p>
+			<ul>
+				<li><strong>Color Names:</strong> Predefined names like "red", "blue", and "green".</li>
+				<li><strong>HEX Codes:</strong> Represent colors using hexadecimal values, e.g., <code>#FF0000</code>
+					for red.</li>
+				<li><strong>RGB:</strong> Specify colors based on the intensity of red, green, and blue (0-255), e.g.,
+					<code>rgb(255, 0, 0)</code> for red.
+				</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;p style="color:green;"&gt;This text is green.&lt;/p&gt;
+		&lt;p style="color:#FF5733;"&gt;This text uses a HEX color.&lt;/p&gt;
+		&lt;p style="color:rgb(0, 0, 255);"&gt;This text uses an RGB color.&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<p style="color:green;">This text is green.</p>
+				<p style="color:#FF5733;">This text uses a HEX color.</p>
+				<p style="color:rgb(0, 0, 255);">This text uses an RGB color.</p>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="links">3.2 Links:</h3>
+			<p><strong>Definition:</strong><br>
+				Links allow navigation between web pages or sections of the same page. The <code>&lt;a&gt;</code>
+				element is used to define a hyperlink, with the <code>href</code> attribute specifying the destination.
+			</p>
+			<p><strong>Attributes:</strong></p>
+			<ul>
+				<li><code>href</code>: Specifies the URL of the page to navigate to.</li>
+				<li><code>target</code>: Specifies where to open the linked document (e.g., in the same tab or a new
+					tab).</li>
+				<li><code>title</code>: Provides additional information about the link when hovered.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;html&gt;
+&lt;body&gt;
+	&lt;a href="https://www.example.com"&gt;Visit Example Website&lt;/a&gt;
+	&lt;a href="#section1"&gt;Jump to Section 1 on the same page&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<a href="https://www.example.com">Visit Example Website</a><br>
+				<a href="#section1">Jump to Section 1 on the same page</a>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="images">3.3 Images:</h3>
+			<p><strong>Definition:</strong><br>
+				Images add a visual element to web pages, helping convey information or enhance appeal. The
+				<code>&lt;img&gt;</code> tag is used to embed images into a webpage.
+			</p>
+			<p><strong>Attributes:</strong></p>
+			<ul>
+				<li><code>src</code>: Specifies the file path or URL of the image.</li>
+				<li><code>alt</code>: Provides alternative text displayed if the image fails to load or for
+					accessibility.</li>
+				<li><code>width</code> and <code>height</code>: Define the dimensions of the image (in pixels).</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;html&gt;
+&lt;body&gt;
+	&lt;img src="example.jpg" alt="A sample image" width="300" height="200"&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<img src="example.jpg" alt="A sample image" width="300" height="200">
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="favicon">3.4 Favicon:</h3>
+			<p><strong>Definition:</strong><br>
+				A favicon is a small icon displayed in the browser tab and bookmarks. It represents the website and
+				enhances brand identity.</p>
+			<p><strong>How to Add a Favicon:</strong><br>
+				Include the <code>&lt;link&gt;</code> element in the <code>&lt;head&gt;</code> section, specifying the
+				favicon file path and type.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt;This page has a favicon.&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<p>This page has a favicon.</p>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="page-title">3.5 Page Title:</h3>
+			<p><strong>Definition:</strong><br>
+				The page title describes the content of the webpage and is displayed on the browser tab and search
+				engine results. It is defined using the <code>&lt;title&gt;</code> element inside the
+				<code>&lt;head&gt;</code> section.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My First Webpage&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;p&gt;Welcome to my webpage!&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<p>Welcome to my webpage!</p>
+			</div>
+			</p>
+		</div>
+
+		<hr>
+
+		<div class="content">
+
+			<h2 id="tables-and-lists">4. <em>Tables and Lists</em></h2>
+			<p>Tables and lists are essential tools for organizing and presenting information on web pages. In this
+				module, we will explore how to create structured tables, ordered and unordered lists, datalists, and
+				advanced table formatting using <code>colspan</code> and <code>rowspan</code>.</p>
+
+			<hr>
+
+			<h3 id="tables">4.1 Tables:</h3>
+			<p><strong>Definition:</strong><br>
+				A table is a structured format for displaying data in rows and columns. HTML tables are created using
+				the <code>&lt;table&gt;</code> tag, with rows defined by the <code>&lt;tr&gt;</code> tag and cells
+				within rows defined by the <code>&lt;td&gt;</code> (for regular cells) and <code>&lt;th&gt;</code> (for
+				header cells) tags.</p>
+			<p><strong>Key Tags in Tables:</strong></p>
+			<ul>
+				<li><code>&lt;table&gt;</code>: Used to define the table structure.</li>
+				<li><code>&lt;tr&gt;</code>: Defines a row in the table.</li>
+				<li><code>&lt;th&gt;</code>: Defines a header cell, typically bold and centered.</li>
+				<li><code>&lt;td&gt;</code>: Defines a regular data cell.</li>
+				<li><code>colspan</code>: Merges two or more columns into one cell.</li>
+				<li><code>rowspan</code>: Merges two or more rows into one cell.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;table border="1"&gt;
+			&lt;tr&gt;
+				&lt;th rowspan="2"&gt;Product&lt;/th&gt;
+				&lt;th colspan="2"&gt;Details&lt;/th&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;th&gt;Price&lt;/th&gt;
+				&lt;th&gt;Stock&lt;/th&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Apples&lt;/td&gt;
+				&lt;td&gt;$2&lt;/td&gt;
+				&lt;td&gt;50&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td&gt;Bananas&lt;/td&gt;
+				&lt;td&gt;$1&lt;/td&gt;
+				&lt;td&gt;100&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<table border="1">
+					<tr>
+						<th rowspan="2">Product</th>
+						<th colspan="2">Details</th>
+					</tr>
+					<tr>
+						<th>Price</th>
+						<th>Stock</th>
+					</tr>
+					<tr>
+						<td>Apples</td>
+						<td>$2</td>
+						<td>50</td>
+					</tr>
+					<tr>
+						<td>Bananas</td>
+						<td>$1</td>
+						<td>100</td>
+					</tr>
+				</table>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="lists">4.2 Lists:</h3>
+			<p><strong>Definition:</strong><br>
+				Lists are used to present a collection of related items in a structured format. HTML supports two main
+				types of lists: unordered and ordered, and an additional definition list type for terms and definitions.
+			</p>
+
+			<h4 id="unordered-lists">4.2.1 Unordered Lists:</h4>
+			<p>Unordered lists display items with bullet points. They are created using the <code>&lt;ul&gt;</code> tag,
+				and each item within the list is defined using the <code>&lt;li&gt;</code> tag.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;ul&gt;
+			&lt;li&gt;HTML&lt;/li&gt;
+			&lt;li&gt;CSS&lt;/li&gt;
+			&lt;li&gt;JavaScript&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</div>
+			</p>
+
+			<h4 id="ordered-lists">4.2.2 Ordered Lists:</h4>
+			<p>Ordered lists display items in a specific sequence, using numbers or letters. They are created using the
+				<code>&lt;ol&gt;</code> tag, with items defined using the <code>&lt;li&gt;</code> tag.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;ol&gt;
+			&lt;li&gt;Step 1: Open the editor.&lt;/li&gt;
+			&lt;li&gt;Step 2: Write HTML code.&lt;/li&gt;
+			&lt;li&gt;Step 3: Save and preview.&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<ol>
+					<li>Step 1: Open the editor.</li>
+					<li>Step 2: Write HTML code.</li>
+					<li>Step 3: Save and preview.</li>
+				</ol>
+			</div>
+			</p>
+
+			<h4 id="definition-lists">4.2.3 Definition Lists:</h4>
+			<p>Definition lists are used to pair terms with their definitions. They are created using the
+				<code>&lt;dl&gt;</code> tag, with terms defined by <code>&lt;dt&gt;</code> and their descriptions by
+				<code>&lt;dd&gt;</code>.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;dl&gt;
+			&lt;dt&gt;HTML&lt;/dt&gt;
+			&lt;dd&gt;A markup language for creating web pages.&lt;/dd&gt;
+			&lt;dt&gt;CSS&lt;/dt&gt;
+			&lt;dd&gt;A stylesheet language for designing web pages.&lt;/dd&gt;
+		&lt;/dl&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<dl>
+					<dt>HTML</dt>
+					<dd>A markup language for creating web pages.</dd>
+					<dt>CSS</dt>
+					<dd>A stylesheet language for designing web pages.</dd>
+				</dl>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="datalist">4.3 Datalist:</h3>
+			<p><strong>Definition:</strong><br>
+				A datalist provides a dropdown of predefined options for an input field, enhancing user experience by
+				allowing suggestions.</p>
+			<p><strong>Key Tags in Datalist:</strong></p>
+			<ul>
+				<li><code>&lt;datalist&gt;</code>: Contains the list of options.</li>
+				<li><code>&lt;option&gt;</code>: Represents individual options in the datalist.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;label for="browser"&gt;Choose a browser:&lt;/label&gt;
+		&lt;input list="browsers" id="browser" name="browser"&gt;
+		&lt;datalist id="browsers"&gt;
+			&lt;option value="Chrome"&gt;
+			&lt;option value="Firefox"&gt;
+			&lt;option value="Safari"&gt;
+			&lt;option value="Edge"&gt;
+		&lt;/datalist&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<label for="browser">Choose a browser:</label>
+				<input list="browsers" id="browser" name="browser">
+				<datalist id="browsers">
+					<option value="Chrome">
+					<option value="Firefox">
+					<option value="Safari">
+					<option value="Edge">
+				</datalist>
+			</div>
+			</p>
+		</div>
+
+		<hr>
+
+		<div class="content">
+
+			<h2 id="structure">5. <em>Structure</em></h2>
+			<p>Understanding the structural elements of HTML is key to building organized and maintainable web pages.
+				This module focuses on block and inline elements, the versatile <code>&lt;div&gt;</code> tag, and how to
+				use classes and IDs, file paths, iframes, and the <code>&lt;head&gt;</code> section effectively.</p>
+
+			<hr>
+
+			<h3 id="block-and-inline-elements">5.1 Block and Inline Elements:</h3>
+			<p><strong>Definition:</strong><br>
+				Block elements occupy the full width available and always start on a new line. Examples include
+				<code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;h1&gt;</code>. Inline elements, on the
+				other hand, do not start on a new line and only take up as much width as necessary, such as
+				<code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>, and <code>&lt;strong&gt;</code>.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;div&gt;This is a block element.&lt;/div&gt;
+		&lt;span&gt;This is an inline element.&lt;/span&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<div>This is a block element.</div>
+				<span>This is an inline element.</span>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="div-tag">5.2 Div Tag:</h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;div&gt;</code> tag is a container for grouping elements together and applying styles or
+				scripts. It is a block-level element commonly used for layout and structure.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;div class="contain"&gt;
+			&lt;h1&gt;Welcome&lt;/h1&gt;
+			&lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<div class="contain">
+					<h1>Welcome</h1>
+					<p>This is a paragraph inside a div.</p>
+				</div>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="classes-and-ids">5.3 Classes and IDs:</h3>
+			<p><strong>Definition:</strong><br>
+				Classes and IDs are attributes used to apply styles or scripts to specific HTML elements. A class can be
+				applied to multiple elements, while an ID must be unique within a page.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;div class="example"&gt;This is a div with a class.&lt;/div&gt;
+		&lt;div id="unique"&gt;This is a div with an ID.&lt;/div&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<div class="example">This is a div with a class.</div>
+				<div id="unique">This is a div with an ID.</div>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="file-paths">5.4 File Paths:</h3>
+			<p><strong>Definition:</strong><br>
+				File paths specify the location of a file to be used in an HTML document. Paths can be relative (based
+				on the current document's location) or absolute (full URL or root-based).</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;img src="images/logo.png" alt="Logo"&gt;
+		&lt;a href="/about.html"&gt;About Us&lt;/a&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<img src="images/logo.png" alt="Logo">
+				<a href="/about.html">About Us</a>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="iframes">5.5 Iframes:</h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;iframe&gt;</code> tag embeds another HTML document within the current document.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;body&gt;
+		&lt;iframe src="https://example.com" width="600" height="400"&gt;&lt;/iframe&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<iframe src="https://example.com" width="600" height="400"></iframe>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="head-section">5.6 Head Section:</h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;head&gt;</code> section contains metadata and references to resources for the web page,
+				such as CSS, JavaScript, and SEO-related tags. It does not display content directly but is crucial for
+				functionality and optimization.</p>
+			<p><strong>Common Tags in the Head Section:</strong></p>
+			<ul>
+				<li><code>&lt;title&gt;</code>: Specifies the title of the web page.</li>
+				<li><code>&lt;meta&gt;</code>: Provides metadata like character encoding, viewport settings, and
+					description.</li>
+				<li><code>&lt;link&gt;</code>: Links external resources like stylesheets.</li>
+				<li><code>&lt;script&gt;</code>: Links JavaScript files or includes inline JavaScript.</li>
+				<li><code>&lt;style&gt;</code>: Contains inline CSS rules for styling.</li>
+			</ul>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;My Web Page&lt;/title&gt;
+		&lt;meta charset="UTF-8"&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+		&lt;link rel="stylesheet" href="styles.css"&gt;
+		&lt;script src="script.js"&gt;&lt;/script&gt;
+		&lt;style&gt;
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f4f4f4;
+			}
+		&lt;/style&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt;Welcome to My Page&lt;/h1&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<h1>Welcome to My Page</h1>
+			</div>
+			</p>
+
+			<h2 id="html-layout-elements">5.7 <em>HTML Layout Elements</em></h2>
+			<p>HTML has several semantic elements that define the different parts of a web page. These elements help
+				structure content in a meaningful way, making it easier to maintain and optimize.</p>
+
+			<hr>
+
+			<h3 id="header-element">5.7.1 <code>&lt;header&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;header&gt;</code> element represents the introductory content or navigation links of a
+				section or the entire document.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;header&gt;
+	&lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+	&lt;nav&gt;
+		&lt;a href="#home"&gt;Home&lt;/a&gt; |
+		&lt;a href="#about"&gt;About Us&lt;/a&gt; |
+		&lt;a href="#services"&gt;Services&lt;/a&gt;
+	&lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<header>
+					<h1>Welcome to My Website</h1>
+					<nav>
+						<a href="#home">Home</a> |
+						<a href="#about">About Us</a> |
+						<a href="#services">Services</a>
+					</nav>
+				</header>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="nav-element">5.7.2 <code>&lt;nav&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;nav&gt;</code> element defines a set of navigation links. It groups links together to form
+				a navigation menu.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;nav&gt;
+	&lt;a href="#home"&gt;Home&lt;/a&gt;
+	&lt;a href="#contact"&gt;Contact&lt;/a&gt;
+&lt;/nav&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<nav>
+					<a href="#home">Home</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="section-element">5.7.3 <code>&lt;section&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;section&gt;</code> element defines a section of content. It groups related content
+				together, such as a chapter in a book or a blog post.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;section&gt;
+	&lt;h2&gt;Our Services&lt;/h2&gt;
+	&lt;p&gt;We offer a wide range of web development services.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<section>
+					<h2>Our Services</h2>
+					<p>We offer a wide range of web development services.</p>
+				</section>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="article-element">5.7.4 <code>&lt;article&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;article&gt;</code> element represents a self-contained piece of content that could be
+				distributed and reused, like a news article or blog post.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;article&gt;
+	&lt;h3&gt;Latest News&lt;/h3&gt;
+	&lt;p&gt;Here is the latest update on our services.&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<article>
+					<h3>Latest News</h3>
+					<p>Here is the latest update on our services.</p>
+				</article>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="aside-element">5.7.5 <code>&lt;aside&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;aside&gt;</code> element represents content that is tangentially related to the content
+				around it, often used for sidebars, pull quotes, or related links.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;aside&gt;
+	&lt;h4&gt;Related Links&lt;/h4&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="#service1"&gt;Service 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#service2"&gt;Service 2&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/aside&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<aside>
+					<h4>Related Links</h4>
+					<ul>
+						<li><a href="#service1">Service 1</a></li>
+						<li><a href="#service2">Service 2</a></li>
+					</ul>
+				</aside>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="footer-element">5.7.6 <code>&lt;footer&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;footer&gt;</code> element defines a footer for a document or section, typically containing
+				copyright information, contact links, or additional information.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;footer&gt;
+	&lt;p&gt;Copyright &copy; 2024 My Website&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<footer>
+					<p>Copyright &copy; 2024 My Website</p>
+				</footer>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="details-element">5.7.7 <code>&lt;details&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;details&gt;</code> element defines additional details that the user can open or close on
+				demand. Typically used for FAQs or expandable content.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;details&gt;
+	&lt;summary&gt;Click to see more details&lt;/summary&gt;
+	&lt;p&gt;Here are some additional details that are hidden by default.&lt;/p&gt;
+&lt;/details&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<details>
+					<summary>Click to see more details</summary>
+					<p>Here are some additional details that are hidden by default.</p>
+				</details>
+			</div>
+			</p>
+
+			<hr>
+
+			<h3 id="summary-element">5.7.8 <code>&lt;summary&gt;</code></h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;summary&gt;</code> element defines a heading for the <code>&lt;details&gt;</code> element.
+				It acts as the clickable element that expands or collapses the hidden content.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;details&gt;
+	&lt;summary&gt;More Info&lt;/summary&gt;
+	&lt;p&gt;This is some additional content that is hidden by default.&lt;/p&gt;
+&lt;/details&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<details>
+					<summary>More Info</summary>
+					<p>This is some additional content that is hidden by default.</p>
+				</details>
+			</div>
+			</p>
+		</div>
+
+		<hr>
+
+		<div class="content">
+
+			<h2 id="introduction-to-semantic-elements">6.1 <em>Introduction to Semantic Elements</em></h2>
+			<p>In HTML5, semantic elements are those that clearly describe their meaning in a human- and
+				machine-readable way. These elements are used to structure the content of a webpage in a meaningful way,
+				enhancing the readability and maintainability of the code. Semantic elements help describe the role of
+				the content inside them and make web pages easier to navigate for both users and search engines.</p>
+
+			<hr>
+
+			<p><strong>Definition:</strong><br>
+				Semantic elements are HTML tags that carry meaning about their content. For example, elements like
+				<code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and
+				<code>&lt;footer&gt;</code> describe parts of a webpage that have specific meaning. This helps with SEO
+				and accessibility, as these elements provide a clear structure that search engines and screen readers
+				can interpret.
+			</p>
+
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;header&gt;
+	&lt;h1&gt;My Webpage&lt;/h1&gt;
+	&lt;nav&gt;Navigation links here&lt;/nav&gt;
+&lt;/header&gt;
+&lt;article&gt;
+	&lt;h2&gt;Article Title&lt;/h2&gt;
+	&lt;p&gt;Content of the article here&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<header>
+					<h1>My Webpage</h1>
+					<nav>Navigation links here</nav>
+				</header>
+				<article>
+					<h2>Article Title</h2>
+					<p>Content of the article here</p>
+				</article>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="importance-of-semantics">6.2 <em>Importance of Semantics</em></h2>
+			<p>Using semantic elements in HTML is crucial for both accessibility and SEO. These elements provide context
+				to the content, helping search engines to understand the structure of the webpage better. They also help
+				with accessibility, making it easier for screen readers to convey the content of the page to users with
+				disabilities.</p>
+
+			<h3 id="advantages-of-semantic-elements">6.2.1 Advantages of Semantic Elements</h3>
+			<ul>
+				<li><strong>SEO (Search Engine Optimization):</strong> Search engines like Google give more value to
+					well-structured, semantic content. Using semantic elements helps improve the ranking of your webpage
+					in search results.</li>
+				<li><strong>Improved Accessibility:</strong> Semantic tags improve the experience for people who use
+					screen readers or other assistive technologies. It helps these devices understand the content and
+					its purpose.</li>
+				<li><strong>Readability and Maintenance:</strong> Semantic elements make it easier for developers to
+					read and maintain code. It's clear to anyone reading the HTML what each part of the page represents.
+				</li>
+				<li><strong>Better Code Organization:</strong> Semantic elements provide a clearer organization of the
+					page layout and content structure, making it easier to manage.</li>
+			</ul>
+
+			<p><strong>Example:</strong> A simple layout using semantic elements for better structure:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;header&gt;
+	&lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+	&lt;nav&gt;Links to sections&lt;/nav&gt;
+&lt;/header&gt;
+&lt;main&gt;
+	&lt;article&gt;
+		&lt;h2&gt;Article Title&lt;/h2&gt;
+		&lt;p&gt;Content of the article&lt;/p&gt;
+	&lt;/article&gt;
+	&lt;section&gt;
+		&lt;h2&gt;Another Section&lt;/h2&gt;
+		&lt;p&gt;Content of the section&lt;/p&gt;
+	&lt;/section&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+	&lt;p&gt;Copyright &copy; 2024 My Website&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<header>
+					<h1>Welcome to My Website</h1>
+					<nav>Links to sections</nav>
+				</header>
+				<main>
+					<article>
+						<h2>Article Title</h2>
+						<p>Content of the article</p>
+					</article>
+					<section>
+						<h2>Another Section</h2>
+						<p>Content of the section</p>
+					</section>
+				</main>
+				<footer>
+					<p>Copyright &copy; 2024 My Website</p>
+				</footer>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="what-are-semantic-elements">6.3 <em>What Are Semantic Elements?</em></h2>
+			<p><strong>Definition:</strong><br>
+				A semantic element clearly describes its meaning to both the browser and the developer. It tells both
+				the browser and the developer the content's role within the document.</p>
+
+			<p><strong>Examples of Non-Semantic Elements:</strong><br>
+				Non-semantic elements, such as <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code>, tell nothing
+				about their content and are used purely for styling or scripting purposes.</p>
+
+			<p><strong>Examples of Semantic Elements:</strong><br>
+				Semantic elements, like <code>&lt;article&gt;</code>, <code>&lt;form&gt;</code>, and
+				<code>&lt;header&gt;</code>, clearly define their content and are meaningful for both developers and
+				search engines.
+			</p>
+
+			<hr>
+
+			<h3 id="article-element">&lt;article&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;article&gt;</code> element represents a self-contained piece
+				of content that could be distributed and reused independently. An article should make sense on its own
+				and be part of a larger site or context.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;article&gt;
+	&lt;h2&gt;How to Learn HTML&lt;/h2&gt;
+	&lt;p&gt;HTML is the foundation of web development...&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="aside-element">&lt;aside&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;aside&gt;</code> element defines content that is tangentially
+				related to the content around it. It is typically used for sidebars, pull quotes, or related links.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;aside&gt;
+	&lt;h3&gt;Related Articles&lt;/h3&gt;
+	&lt;p&gt;Learn more about web design...&lt;/p&gt;
+&lt;/aside&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="details-element">&lt;details&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;details&gt;</code> element represents a disclosure widget from
+				which the user can obtain additional information or controls. It typically contains a
+				<code>&lt;summary&gt;</code> tag to define a heading.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;details&gt;
+	&lt;summary&gt;More Information&lt;/summary&gt;
+	&lt;p&gt;Here is the additional information you requested.&lt;/p&gt;
+&lt;/details&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="figcaption-element">&lt;figcaption&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;figcaption&gt;</code> element is used to provide a caption or
+				description for a <code>&lt;figure&gt;</code>, which could be an image, diagram, or other media.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;figure&gt;
+	&lt;img src="example.jpg" alt="Example Image"&gt;
+	&lt;figcaption&gt;This is an example image.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="figure-element">&lt;figure&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;figure&gt;</code> element is used to encapsulate media
+				content, such as images, diagrams, or videos, along with an optional caption using
+				<code>&lt;figcaption&gt;</code>.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;figure&gt;
+	&lt;img src="example.jpg" alt="An example image"&gt;
+	&lt;figcaption&gt;An image showing an example.&lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="footer-element">&lt;footer&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;footer&gt;</code> element defines the footer for a document or
+				section. It typically contains information about the author, copyright, or related links.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;footer&gt;
+	&lt;p&gt;Copyright &copy; 2024 My Website&lt;/footer&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="header-element">&lt;header&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;header&gt;</code> element represents introductory content for
+				a document or section. It can include a site logo, navigation, or a heading.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;header&gt;
+	&lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+	&lt;nav&gt;Links to sections&lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="main-element">&lt;main&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;main&gt;</code> element represents the dominant content of the
+				<i>body</i> of a document. It should be unique and not repeat headers, footers, or navigation.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;main&gt;
+	&lt;article&gt;
+		&lt;h2&gt;Article Title&lt;/h2&gt;
+		&lt;p&gt;Content of the article here&lt;/p&gt;
+	&lt;/article&gt;
+&lt;/main&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="mark-element">&lt;mark&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;mark&gt;</code> element represents text that has been
+				highlighted or marked for reference. It is typically used to highlight search terms or important text.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;p&gt;This is a &lt;mark&gt;highlighted&lt;/mark&gt; word.&lt;/p&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="nav-element">&lt;nav&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;nav&gt;</code> element is used to define a set of navigation
+				links. This helps search engines and screen readers determine the main navigation sections.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;nav&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="section-element">&lt;section&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;section&gt;</code> element represents a section of content
+				that is thematically related. It is typically used for grouping content like articles, blog posts, or
+				similar topics.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;section&gt;
+	&lt;h2&gt;Introduction to HTML&lt;/h2&gt;
+	&lt;p&gt;HTML is a markup language used to structure web pages...&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="summary-element">&lt;summary&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;summary&gt;</code> element defines a heading for the
+				<code>&lt;details&gt;</code> element. It is visible to the user and can be clicked to expand the
+				details.
+			</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;details&gt;
+	&lt;summary&gt;Click to see more&lt;/summary&gt;
+	&lt;p&gt;Here are additional details about the topic.&lt;/p&gt;
+&lt;/details&gt;</code></pre>
+			</div>
+
+			<hr>
+
+			<h3 id="time-element">&lt;time&gt;</h3>
+			<p><strong>Definition:</strong> The <code>&lt;time&gt;</code> element is used to represent a specific time
+				or date. It allows machines to interpret and process time-related data.</p>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;time datetime="2024-12-31"&gt;December 31, 2024&lt;/time&gt;</code></pre>
+			</div>
+
+			<hr>
+		</div>
+
+		<hr>
+
+		<div class="content">
+			<h2 id="introduction-to-forms">7.1 <em>Introduction to Forms</em></h2>
+			<p>Forms are an essential part of web development, allowing users to input data that can be sent to a
+				server. In HTML, the <code>&lt;form&gt;</code> element is used to define a form, which can contain input
+				fields, buttons, checkboxes, and other elements.</p>
+			<hr>
+
+			<h3 id="what-are-forms">7.1.1 What Are Forms?</h3>
+			<p><strong>Definition:</strong><br>
+				A form in HTML is a container for different types of input elements, such as text fields, buttons, and
+				checkboxes. Forms allow users to interact with the web page and submit data, which can then be processed
+				on the server.</p>
+
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;form action="submit_form.php" method="post"&gt;
+	&lt;label for="name"&gt;Name:&lt;/label&gt;
+	&lt;input type="text" id="name" name="name"&gt;
+	&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<form action="submit_form.php" method="post">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="form-attributes">7.2 <em>Form Attributes</em></h2>
+			<p>The <code>&lt;form&gt;</code> element has several important attributes that define its behavior, such as
+				<code>action</code>, <code>method</code>, and <code>target</code>.
+			</p>
+
+			<h3 id="common-form-attributes">7.2.1 Common Form Attributes</h3>
+			<ul>
+				<li><strong>action:</strong> Specifies the URL where the form data will be sent when submitted. It can
+					be a relative or absolute URL.</li>
+				<li><strong>method:</strong> Defines how the form data will be sent to the server. Common methods are
+					<code>GET</code> and <code>POST</code>.
+				</li>
+				<li><strong>target:</strong> Specifies where to display the response after submitting the form. Common
+					values are <code>_self</code>, <code>_blank</code>, etc.</li>
+			</ul>
+
+			<p><strong>Example:</strong> A form with <code>action</code> and <code>method</code> attributes:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;form action="submit_form.php" method="post"&gt;
+	&lt;label for="email"&gt;Email:&lt;/label&gt;
+	&lt;input type="email" id="email" name="email"&gt;
+	&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<form action="submit_form.php" method="post">
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="form-elements">7.3 <em>Form Elements</em></h2>
+			<p>Form elements are the components of a form, allowing users to input various types of data. These elements
+				can include text fields, checkboxes, radio buttons, and more.</p>
+
+			<h3 id="common-form-elements">7.3.1 Common Form Elements</h3>
+			<ul>
+				<li><code>&lt;input&gt;</code>: Defines various types of input fields, such as text, password, and radio
+					buttons.</li>
+				<li><code>&lt;textarea&gt;</code>: Allows for multi-line text input, such as comments or messages.</li>
+				<li><code>&lt;select&gt;</code>: Provides a dropdown menu for selecting a value from a list.</li>
+				<li><code>&lt;button&gt;</code>: Defines a clickable button that can submit or reset a form.</li>
+			</ul>
+
+			<p><strong>Example:</strong> A form with text, radio, submit button, and a textarea:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;form&gt;
+	&lt;label for="username"&gt;Username:&lt;/label&gt;
+	&lt;input type="text" id="username" name="username"&gt;
+	&lt;br&gt;
+	&lt;label for="gender"&gt;Gender:&lt;/label&gt;
+	&lt;input type="radio" id="male" name="gender" value="male"&gt; Male
+	&lt;input type="radio" id="female" name="gender" value="female"&gt; Female
+	&lt;br&gt;
+	&lt;label for="message"&gt;Message:&lt;/label&gt;
+	&lt;textarea id="message" name="message" rows="4" cols="50"&gt;&lt;/textarea&gt;
+	&lt;br&gt;
+	&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<form>
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username">
+					<br>
+					<label for="gender">Gender:</label>
+					<input type="radio" id="male" name="gender" value="male"> Male
+					<input type="radio" id="female" name="gender" value="female"> Female
+					<br>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="4" cols="50"></textarea>
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="input-types">7.4 <em>Input Types</em></h2>
+			<p>The <code>&lt;input&gt;</code> element has various types that determine the kind of input the user can
+				provide. These types control the input's appearance and validation.</p>
+
+			<h3 id="common-input-types">7.4.1 Common Input Types</h3>
+			<ul>
+				<li><code>text</code>: A single-line text input.</li>
+				<li><code>password</code>: A text input where the characters are obscured.</li>
+				<li><code>email</code>: Validates the email format.</li>
+				<li><code>date</code>: Allows users to select a date from a date picker.</li>
+				<li><code>checkbox</code>: A box that the user can check or uncheck.</li>
+				<li><code>radio</code>: A set of options where only one option can be selected.</li>
+			</ul>
+
+			<p><strong>Example:</strong> A form with different input types:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;form&gt;
+	&lt;label for="email"&gt;Email:&lt;/label&gt;
+	&lt;input type="email" id="email" name="email"&gt;
+	&lt;br&gt;
+	&lt;label for="password"&gt;Password:&lt;/label&gt;
+	&lt;input type="password" id="password" name="password"&gt;
+	&lt;br&gt;
+	&lt;label for="newsletter"&gt;Subscribe to newsletter:&lt;/label&gt;
+	&lt;input type="checkbox" id="newsletter" name="newsletter"&gt;
+	&lt;br&gt;
+	&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<form>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email">
+					<br>
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+					<br>
+					<label for="newsletter">Subscribe to newsletter:</label>
+					<input type="checkbox" id="newsletter" name="newsletter">
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="input-attributes">7.5 <em>Input Attributes</em></h2>
+			<p>Input fields can also have additional attributes to enhance their functionality, such as
+				<code>placeholder</code>, <code>required</code>, and <code>maxlength</code>.
+			</p>
+
+			<h3 id="common-input-attributes">7.5.1 Common Input Attributes</h3>
+			<ul>
+				<li><strong>placeholder:</strong> Provides a short hint that describes the expected value of an input
+					field.</li>
+				<li><strong>required:</strong> Specifies that an input field must be filled out before submitting the
+					form.</li>
+				<li><strong>maxlength:</strong> Limits the number of characters that can be entered in an input field.
+				</li>
+			</ul>
+
+			<p><strong>Example:</strong> Using input attributes:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;form&gt;
+	&lt;label for="username"&gt;Username:&lt;/label&gt;
+	&lt;input type="text" id="username" name="username" 
+	placeholder="Enter your username" required maxlength="20"&gt;
+	&lt;br&gt;
+	&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<form>
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username" placeholder="Enter your username" required
+						maxlength="20">
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			</p>
+
+		</div>
+
+		<hr>
+
+
+		<div class="content">
+			<h2 id="introduction-to-media">8.1 <em>Introduction to Media</em></h2>
+			<p>Media elements, such as video and audio, allow us to embed multimedia content on web pages. The
+				<code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements provide native support for embedding
+				media, with attributes that help control their behavior.
+			</p>
+			<hr>
+
+			<h3 id="what-are-media-elements">8.1.1 What Are Media Elements?</h3>
+			<p><strong>Definition:</strong><br>
+				The <code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code> elements allow you to embed video and
+				audio content into a web page. They can have attributes that control playback, volume, looping, and
+				more.</p>
+
+			<h3 id="why-use-media-elements">8.1.2 Why Use Media Elements?</h3>
+			<p>Media elements allow for easy integration of video and audio without relying on external plugins. These
+				elements are natively supported by modern browsers, making media playback smoother and more accessible.
+			</p>
+
+			<hr>
+
+			<h2 id="video-element">8.2 <em>Video Element</em></h2>
+			<p>The <code>&lt;video&gt;</code> element is used to embed video files in a web page. It can include several
+				attributes to control its behavior.</p>
+
+			<h3 id="common-video-attributes">8.2.1 Common Video Attributes</h3>
+			<ul>
+				<li><strong>src:</strong> Specifies the path to the video file. Can be a URL or a relative path.</li>
+				<li><strong>controls:</strong> Adds playback controls like play, pause, and volume control to the video.
+				</li>
+				<li><strong>autoplay:</strong> Automatically starts playing the video as soon as it is ready.</li>
+				<li><strong>loop:</strong> Makes the video loop continuously once it reaches the end.</li>
+				<li><strong>muted:</strong> Mutes the video’s audio by default when it is loaded.</li>
+				<li><strong>poster:</strong> Specifies an image to display before the video starts playing.</li>
+				<li><strong>width:</strong> Defines the width of the video player in pixels.</li>
+				<li><strong>height:</strong> Defines the height of the video player in pixels.</li>
+				<li><strong>preload:</strong> Specifies how the video should be preloaded, with options like
+					<code>auto</code>, <code>metadata</code>, or <code>none</code>.
+				</li>
+			</ul>
+
+			<h3 id="example-of-a-video">8.2.2 Example of a Video</h3>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;video src="video.mp4" controls autoplay loop muted poster="poster.jpg" 
+width="600" height="400"&gt;
+	Your browser does not support the video element.
+&lt;/video&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<video src="video.mp4" controls autoplay loop muted poster="poster.jpg" width="600" height="400">
+					Your browser does not support the video element.
+				</video>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="audio-element">8.3 <em>Audio Element</em></h2>
+			<p>The <code>&lt;audio&gt;</code> element is used to embed audio files in a web page. It can also include
+				various attributes for controlling playback and behavior.</p>
+
+			<h3 id="common-audio-attributes">8.3.1 Common Audio Attributes</h3>
+			<ul>
+				<li><strong>src:</strong> Specifies the path to the audio file. Can be a URL or a relative path.</li>
+				<li><strong>controls:</strong> Adds playback controls such as play, pause, and volume control to the
+					audio.</li>
+				<li><strong>autoplay:</strong> Automatically starts playing the audio as soon as it is ready.</li>
+				<li><strong>loop:</strong> Makes the audio play continuously once it reaches the end.</li>
+				<li><strong>muted:</strong> Mutes the audio by default when it is loaded.</li>
+				<li><strong>preload:</strong> Specifies how the audio should be preloaded, with options like
+					<code>auto</code>, <code>metadata</code>, or <code>none</code>.
+				</li>
+				<li><strong>volume:</strong> Sets the initial volume level of the audio (ranges from 0 to 1).</li>
+			</ul>
+
+			<h3 id="example-of-an-audio">8.3.2 Example of an Audio</h3>
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>
+&lt;audio src="audio.mp3" controls autoplay loop muted preload="auto"&gt;
+	Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+			</div>
+
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<audio src="audio.mp3" controls autoplay loop muted preload="auto">
+					Your browser does not support the audio element.
+				</audio>
+			</div>
+			</p>
+
+		</div>
+
+		<hr>
+
+		<div class="content">
+			<h2 id="html-metadata">9.1 <em>HTML Metadata (Meta Tags)</em></h2>
+			<p>Metadata in HTML provides information about the web page, such as its description, keywords, author, and
+				more. It is placed inside the <code>&lt;head&gt;</code> section of the HTML document and is used to
+				control how the page appears on search engines and social media.</p>
+
+			<h3 id="common-meta-tags">9.1.1 Common Meta Tags</h3>
+			<ul>
+				<li><strong>&lt;meta charset="UTF-8"&gt;</strong>: Defines the character encoding for the document.</li>
+				<li><strong>&lt;meta name="description" content="Web page description"&gt;</strong>: Provides a short
+					description of the page for search engines.</li>
+				<li><strong>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</strong>: Provides search
+					engine keywords.</li>
+				<li><strong>&lt;meta name="author" content="Your Name"&gt;</strong>: Specifies the author of the web
+					page.</li>
+				<li><strong>&lt;meta http-equiv="refresh" content="30"&gt;</strong>: Refreshes the page every 30
+					seconds.</li>
+			</ul>
+
+			<hr>
+
+			<h2 id="html-accessibility">9.2 <em>HTML Accessibility</em></h2>
+			<p>HTML accessibility ensures that your website is usable by people with disabilities. It involves providing
+				alternative text for images, proper heading structures, and ARIA (Accessible Rich Internet Applications)
+				roles.</p>
+
+			<h3 id="key-concepts">9.2.1 Key Concepts</h3>
+			<ul>
+				<li><strong>Alt Text:</strong> Descriptive text for images to help screen readers.</li>
+				<li><strong>ARIA Roles:</strong> Provide roles to elements for accessibility (e.g.,
+					<code>role="button"</code>).
+				</li>
+				<li><strong>Semantic HTML:</strong> Using proper HTML tags for content, like
+					<code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, etc.
+				</li>
+			</ul>
+
+			<hr>
+
+			<h2 id="html-data-attributes">9.3 <em>HTML Data Attributes</em></h2>
+			<p>Data attributes allow you to store extra data in HTML elements. They are used to store custom information
+				that can be accessed using JavaScript.</p>
+
+			<h3 id="data-attributes-example">9.3.1 Example</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;div data-user="123" data-role="admin"&gt;User Info&lt;/div&gt;</code></pre>
+			</div>
+			<p>In JavaScript:</p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>let userData = document.querySelector('div').dataset.user; // 123</code></pre>
+			</div>
+
+			<hr>
+
+			<h2 id="html-global-attributes">9.4 <em>HTML Global Attributes</em></h2>
+			<p>Global attributes are attributes that can be used on any HTML element. They provide common
+				functionalities like event handling, styling, and accessibility.</p>
+
+			<h3 id="common-global-attributes">9.4.1 Common Global Attributes</h3>
+			<ul>
+				<li><strong>id:</strong> Identifies the element uniquely.</li>
+				<li><strong>class:</strong> Specifies a class for CSS styling.</li>
+				<li><strong>style:</strong> Defines inline CSS styles.</li>
+				<li><strong>title:</strong> Provides additional information when the user hovers over an element.</li>
+				<li><strong>lang:</strong> Specifies the language of the element’s content.</li>
+			</ul>
+
+			<hr>
+
+			<h2 id="html-navigation">9.5 <em>HTML Navigation (&lt;nav&gt;)</em></h2>
+			<p>The <code>&lt;nav&gt;</code> element is used to define a block of navigation links. It is a semantic
+				HTML5 element that helps search engines and accessibility tools understand where the main navigation is
+				located.</p>
+
+			<h3 id="navigation-example">9.5.1 Example</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;nav&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<nav>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="html-templates">9.6 <em>HTML Templates</em></h2>
+			<p>The <code>&lt;template&gt;</code> element is used to declare a fragment of HTML that can be cloned and
+				inserted into the document at a later time using JavaScript. It is not rendered when the page is loaded
+				but can be used dynamically.</p>
+
+			<h3 id="template-example">9.6.1 Example</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;template id="myTemplate"&gt;
+	&lt;div&gt;
+		&lt;p&gt;This content is in a template!&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+	let templateElement = document.getElementById('myTemplate');
+	let clonedContent = document.importNode(template.content, true);
+	document.body.appendChild(clone);
+&lt;/script&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<!-- <template id="myTemplate"> -->
+				<div>
+					<p>This content is in a template!</p>
+				</div>
+				</template>
+
+				<script>
+					let template = document.getElementById('myTemplate');
+					let clone = document.importNode(template.content, true);
+					document.body.appendChild(clone);
+				</script>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="html-picture-element">9.7 <em>HTML Picture Element</em></h2>
+			<p>The <code>&lt;picture&gt;</code> element is used for responsive images. It allows different images to be
+				displayed depending on the device’s screen size or resolution.</p>
+
+			<h3 id="picture-example">9.7.1 Example</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;picture&gt;
+	&lt;source media="(min-width: 650px)" srcset="large.jpg"&gt;
+	&lt;source media="(min-width: 465px)" srcset="medium.jpg"&gt;
+	&lt;img src="small.jpg" alt="Image description"&gt;
+&lt;/picture&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<picture>
+					<source media="(min-width: 650px)" srcset="large.jpg">
+					<source media="(min-width: 465px)" srcset="medium.jpg">
+					<img src="small.jpg" alt="Image description">
+				</picture>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="html-svg-and-canvas">9.8 <em>HTML SVG and Canvas (Graphics)</em></h2>
+			<p><strong>SVG (Scalable Vector Graphics):</strong> Used for creating vector-based graphics in HTML,
+				allowing them to scale without losing quality.</p>
+			<p><strong>Canvas:</strong> Used for drawing 2D graphics via JavaScript.</p>
+
+			<h3 id="svg-example">9.8.1 Example (SVG)</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;svg width="100" height="100"&gt;
+	&lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<svg width="100" height="100">
+					<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+				</svg>
+			</div>
+			</p>
+
+			<h3 id="canvas-example">9.8.2 Example (Canvas)</h3>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;
+&lt;script&gt;
+	let canvas = document.getElementById('myCanvas');
+	let ctx = canvas.getContext('2d');
+	ctx.fillStyle = 'blue';
+	ctx.fillRect(20, 20, 150, 50);
+&lt;/script&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<canvas id="myCanvas" width="200" height="100"></canvas>
+				<script>
+					let canvas = document.getElementById('myCanvas');
+					let ctx = canvas.getContext('2d');
+					ctx.fillStyle = 'blue';
+					ctx.fillRect(20, 20, 150, 50);
+				</script>
+			</div>
+			</p>
+
+			<hr>
+
+			<h2 id="html-deprecated-tags">9.9 <em>HTML Deprecated Tags</em></h2>
+			<p>Deprecated tags are HTML elements that are no longer recommended for use in modern web design and may not
+				be supported in future HTML specifications.</p>
+
+			<h3 id="deprecated-tags-examples">9.9.1 Examples</h3>
+			<ul>
+				<li><strong>&lt;font&gt;</strong>: Used to change font style but is now replaced by CSS.</li>
+				<li><strong>&lt;center&gt;</strong>: Used to center content, now done with CSS.</li>
+				<li><strong>&lt;marquee&gt;</strong>: Used to create scrolling text, but is now obsolete.</li>
+				<li><strong>&lt;blink&gt;</strong>: Used to make text blink, now obsolete.</li>
+			</ul>
+
+			<p><strong>Example:</strong></p>
+			<div class="code-box">
+				<button class="copy-btn" onclick="copyCode(this)">Copy</button>
+				<pre><code>&lt;font color="red"&gt;This is red text.&lt;/font&gt;
+&lt;center&gt;This text is centered.&lt;/center&gt;
+&lt;marquee&gt;This is scrolling text.&lt;/marquee&gt;
+&lt;blink&gt;This text blinks.&lt;/blink&gt;</code></pre>
+			</div>
+			<p><strong>Output:</strong><br>
+			<div class="output-box">
+				<font color="red">This is red text.</font><br>
+				<center>This text is centered.</center><br>
+				<marquee>This is scrolling text.</marquee><br>
+				<blink>This text blinks.</blink>
+			</div>
+			</p>
+		</div>
+
+	</div>
+
+	<div class="right-container">
+		<textarea id="code" placeholder="Write your HTML code here..."></textarea>
+		<iframe id="output"></iframe>
+	</div>
+
+	<button id="theme-toggle-btn" class="theme-toggle-btn"><i class='bx bx-sun'></i></button>
+
+
+</body>
+
+</html>
